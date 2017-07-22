@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger name="Log-DB" class="org.jpos.q2.qbean.LoggerAdaptor" enabled="true">
+  <log-listener class="org.jpos.util.RotateLogListener">
+    <property name="file" value="./log/db.log" />
+    <property name="window" value="86400" />
+    <property name="copies" value="90" />
+    <property name="maxsize" value="1000000000" />
+  </log-listener>
+</logger>
+
+

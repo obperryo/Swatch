@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+
+
+echo "CLASSPATH="$CLASSPATH
+echo "PATH="$PATH
