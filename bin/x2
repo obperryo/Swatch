@@ -4,3 +4,4 @@
 
 echo "CLASSPATH="$CLASSPATH
 echo "PATH="$PATH
+Add more stuff
